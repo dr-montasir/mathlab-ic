@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "mathlab-ic-backend": {
+      "candid": "src/mathlab-ic-backend/mathlab-ic-backend.did",
+      "package": "mathlab-ic-backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

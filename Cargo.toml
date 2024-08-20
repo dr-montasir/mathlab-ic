@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/mathlab-ic-backend"
+]
+resolver = "2"
