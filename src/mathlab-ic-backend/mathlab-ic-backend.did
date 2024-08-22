@@ -1,3 +1,9 @@
 service : {
-    "greet": (text) -> (text) query;
-}
+    "greet" : (text) -> (text) query;
+    "accept_number_as_text_get_sqr_as_text" : (text) -> (text) query;
+    "accept_float64_get_sqr_as_text" : (float64) -> (text) query;
+    "accept_float64_get_sqr_as_number" : (float64) -> (float64) query;
+    "accept_2floats_get_add_as_text" : (float64, float64) -> (text) query;
+    "accept_2floats_get_add_as_number" : (float64, float64) -> (float64) query;
+    "accept_args_get_range_as_string_json" : (float64, float64) -> (text) query;
+};
